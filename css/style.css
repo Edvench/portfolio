@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Raleway/Raleway-Regular.eot');
+  src: local('☺'), url('../fonts/Raleway/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype'), url('../fonts/Raleway/Raleway-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.gradient {
+  position: relative;
+}
+.gradient:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+  background: -o-linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+  background: linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6fce38a', endColorstr='#e6f38181', GradientType=0);
+  /* IE6-9 */
+}
+body {
+  font-family: 'Raleway-Regular';
+}
+body img {
+  max-width: 100%;
+}
+.header {
+  background-color: #1d1414;
+  height: 500px;
+}
+.header {
+  background-color: #1d1414;
+  background-image: url(../images/fon111.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.header .headline {
+  padding-top: 150px;
+  padding-left: 70px;
+}
+.header .headline .main-title {
+  font-size: 25px;
+  color: white;
+}
+.header .headline .secondary-title {
+  font-size: 15px;
+  color: white;
+}
+.header .headline-referances {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.header .fa {
+  color: white;
+}
+.main-section {
+  background-color: #EAEAEA;
+}
+.main-section .main-section-head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.main-section .main-section-head .main-section-head-title {
+  font-size: 20px;
+  color: black;
+  position: relative;
+}
+.main-section .main-section-head .main-section-head-title:before {
+  content: " ";
+  position: absolute;
+  bottom: -60%;
+  display: block;
+  width: 100%;
+  height: 2px;
+  box-shadow: 0px 1px 8px 3px #0c0c0c;
+}
+.main-section .row {
+  background-color: #EAEAEA;
+  padding-top: 10px;
+}
+.main-section .cell {
+  margin-bottom: 20px;
+}
+.main-section .image-col {
+  background-color: white;
+}
+.main-section .cell-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+}
+.bottom-section {
+  height: 670px;
+  background-image: url(../images/fon3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.bottom-section .btn-contact {
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  height: 25.8%;
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 29%;
+  left: 36%;
+  text-transform: uppercase;
+  font-size: 31px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
+  transition: all 0.4s ease-in-out;
+}
+.bottom-section .btn-contact:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.bottom-section .circle {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.bottom-section .circle .fa-circle {
+  display: inline-block;
+  margin-right: 5px;
+}
+.bottom-section .bottom-main {
+  text-align: center;
+  margin-top: 10px;
+}
+.bottom-section .bottom-main .bottom-main-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.bottom-section .bottom-main .bottom-main-middle {
+  margin-top: 10px;
+}
+.bottom-section .bottom-main .bottom-main-middle2 {
+  margin-top: 10px;
+}
+.bottom-section .bottom-main .bottom-main-bottom {
+  margin-top: 10px;
+}
+.bottom-section .bottom-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+}
