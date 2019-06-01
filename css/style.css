@@ -163,7 +163,7 @@ body img {
   background-color: white;
 }
 .bottom-section {
-  height: 670px;
+  padding-bottom: 10px;
   background-image: url(../images/fon3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -203,6 +203,7 @@ body img {
 .bottom-section .bottom-main {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 400px;
 }
 .bottom-section .bottom-main .bottom-main-title {
   font-size: 30px;
@@ -220,5 +221,4 @@ body img {
 .bottom-section .bottom-footer {
   display: flex;
   justify-content: center;
-  margin-top: 450px;
 }
